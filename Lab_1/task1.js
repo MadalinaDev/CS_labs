@@ -71,9 +71,14 @@ function caesarCipher() {
       return;
     }
 
-    const processedMessage = message.toUpperCase().replace(/ /g, "");
+    const processedMessage = message.toUpperCase().split(" ").join("");
 
-    if (!/^[A-Z]+$/.test(processedMessage)) {
+    if (
+      !processedMessage.split("").every((char) => {
+        const code = char.charCodeAt(0);
+        return code >= 65 && code <= 90; // A-Z
+      })
+    ) {
       console.log("Error: Message must contain only letters A-Z and a-z");
       readline.close();
       return;
