@@ -1,0 +1,32 @@
+let s = `ZNOVIG RVPWVIG hifuwnsnjf vzvijvo oxivhwsf cinz wqv csnrvixgj ncznovig oxusnzthf. Wqv tzatpptonip' ivuniwp rviv pnzvwxzvp nuvgvotgo ivto, tgo, xc gvhvpptif, hifuw-tgtsfmvo. Af wqv vgo nc wqv hvgwdif,hifuwnsnjf qto avhnzv xzuniwtgw vgndjq cni znpw pwtwvp wn lvvu cdss-wxzv hxuqvi pvhivwtixvp nhhduxvo xg ztlxgj du gvr lvfp, vghxuqvixgj tgoovhxuqvixgj zvpptjvp, tgo pnskxgj xgwvihvuwvo oxputwhqvp. Pnzvwxzvpwqv hifuwtgtsfpwp rviv pvutitwv cinz wqv hxuqvi pvhivwtixvp tgo rvivhtssvo xg ngsf rqvg gvvovo. Uviqtup wqv znpw vstanitwv nijtgxmtwxng rtpKvgxhv'p. Xw cvss dgovi wqv xzzvoxtwv hngwins nc wqv Hndghxs nc Wvg, wqvunrvicds tgo zfpwvixndp anof wqtw idsvo wqv ivudasxh stijvsf wqindjq xwpvccxhxvgw pvhivw unsxhv. Kvgxhv nrvo qvi uivvzxgvghv stijvsf wn JxnktggxPnin, rqn rtp uviqtup wqv Rvpw'p cxipw jivtw hifuwtgtsfpw. Pnin,tuunxgwvo hxuqvi pvhivwtif xg 1506, vgenfvo ivztiltasv pdhhvpp xgpnskxgj wqv hxuqvip nc gdzvindp uixghxutsxwxvp. Qxp pnsdwxng nc t oxputwhqnc Ztil Tgwqngf Hnsntgt, hqxvc nc wqv tizf nc wqv Qnsf Inztg VzuviniZtyxzxsxtg X, ivbdvpwxgj 20,000 odhtwp ni wqv uivpvghv nc wqv vzuvinirxwq wqv tizf, jtkv tg xgpxjqw xgwn Hnsnggt'p uinasvzp. Pn jivtw rtpPnin'p ctzv wqtw nwqvi hndiwp pqtiuvgvo wqvxi hxuqvip, tgo tp vtisf tp1510 wqv ututs hdixt rtp pvgoxgj qxz hxuqvip wqtw gn ngv xg Inzv hndsopnskv. Adw Kvgxhv qto gn zngnunsf. Xg 1589, Qvgif nc Gtktiiv, rqn rtp ovpwxgvo wn avhnzv wqv znpwunudsti lxgj xg wqv qxpwnif nc Citghv (qv hnxgvo wqv psnjtg "T hqxhlvg xgvkvif uvtptgw'p unw vkvif Pdgotf"), tphvgovo wn wqv wqingv tp Qvgif XKtgo cndgo qxzpvsc vzainxsvo pwxss zniv cxvihvsf xg qxp axwwvi hngwvpwrxwq wqv Qnsf Svtjdv, t Htwqnsxh cthwxng wqtw ivcdpvo wn hnghvov wqtw tUinwvpwtgw hndso rvti wqv hinrg. Wqv Svtjdv, qvtovo af wqv Odlv ncZtfvggv, qvso Utixp tgo tss wqv nwqvi stijv hxwxvp nc Citghv, tgo rtpivhvxkxgj stijv witgpcdpxngp nc zvg tgo zngvf cinz Uqxsxu nc Putxg.Qvgif rtp wxjqwsf qvzzvo xg, tgo xw rtp tw wqxp edghwdiv wqtw pnzvhniivpungovghv avwrvvg Uqxsxu tgo wrn nc qxp sxtxpng nccxhvip,Hnzztgovi Edtg ov Znivn tgo Tzatpptoni Ztgnppv, cvss xgwn Qvgif'pqtgop.Xw rtp xg hxuqvi, adw qv qto xg qxp jnkvigzvgw tw wqv wxzv ngvCitghnxp Kxvwv, wqv pvxjgvdi ov st Axjnwxviv, t 49-fvti-nso strfvi cinzUnxwnd rqn qto ixpvg wn avhnzv hndgpvsni nc wqv utisvzvgw, ni hndiw ncedpwxhv, nc Wndip tgo t uixkf hndgpvsni wn Qvgif. Kxvwv qto cni fvtiptzdpvo qxzpvsc rxwq ztwqvztwxhp tp t qnaaf—"Gvkvi rtp t ztg znivanig cni ztwqvztwxhp," ptxo Wtssvzvgw ovp Ivtdy. Tp wqv ztg rqn cxipwdpvo svwwvip cni bdtgwxwxvp xg tsjvait, jxkxgj wqtw pwdof xwp hqtithwvixpwxhsnnl, Kxvwv xp wnotf ivzvzavivo tp wqv Ctwqvi nc Tsjvait. T fvti avcniv,qv qto pnskvo t Putgxpq oxputwhq tooivppvo wn Tsvpptgoin Ctigvpv, wqvOdlv nc Utizt, rqn qvtovo wqv Putgxpq cnihvp nc wqv Svtjdv. Qvgifwdigvo wqv gvr xgwvihvuwp nkvi wn qxz wn pvv xc Kxvwv hndso ivuvtw qxppdhhvpp.`;
+s = s.toUpperCase();
+
+let answer = s;
+answer = answer.replaceAll("V", "e");
+answer = answer.replaceAll("T", "a");
+answer = answer.replaceAll("X", "i");
+answer = answer.replaceAll("G", "n");
+answer = answer.replaceAll("O", "d");
+answer = answer.replaceAll("P", "s");
+answer = answer.replaceAll("Q", "h");
+answer = answer.replaceAll("W", "t");
+answer = answer.replaceAll("Z", "m");
+answer = answer.replaceAll("H", "c");
+answer = answer.replaceAll("N", "o");
+answer = answer.replaceAll("I", "r");
+answer = answer.replaceAll("R", "w");
+answer = answer.replaceAll("C", "f");
+answer = answer.replaceAll("S", "l");
+answer = answer.replaceAll("J", "g");
+answer = answer.replaceAll("D", "u");
+answer = answer.replaceAll("K", "v");
+answer = answer.replaceAll("A", "b");
+answer = answer.replaceAll("F", "y");
+answer = answer.replaceAll("E", "j");
+answer = answer.replaceAll("U", "p");
+answer = answer.replaceAll("L", "k");
+answer = answer.replaceAll("M", "z");
+answer = answer.replaceAll("B", "q");
+answer = answer.replaceAll("Y", "x");
+
+console.log(answer);

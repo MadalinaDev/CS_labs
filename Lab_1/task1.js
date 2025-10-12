@@ -18,7 +18,7 @@ function caesarCipher() {
     for (let i = 0; i < message.length; i++) {
       const char = message[i];
       const currentIndex = alphabet.indexOf(char);
-      const newIndex = (currentIndex + key) % 26;
+      const newIndex = (currentIndex + key) % 26; 
       encrypted += alphabet[newIndex];
     }
 
@@ -32,7 +32,7 @@ function caesarCipher() {
     for (let i = 0; i < message.length; i++) {
       const char = message[i];
       const currentIndex = alphabet.indexOf(char);
-      const newIndex = (currentIndex - key + 26) % 26;
+      const newIndex = (currentIndex - key + alphabet.length) % 26; 
       decrypted += alphabet[newIndex];
     }
 
